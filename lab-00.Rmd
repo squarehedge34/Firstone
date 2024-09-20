@@ -47,7 +47,7 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+The Graphic shows the different members of the group and their favorite number in the form of a bar graph.
 
 ### Exercises 19
 
