@@ -16,18 +16,18 @@ library(tidyverse)
 We set up the data frame. Edit the data below to include information about your team members.
 
 ```{r setup-tibble}
-team_data <- tibble
-  name = c("Druvis Keiri", "Chatlie Franklin-White", "Jami Burrell", 
-           "Sean Wang", "Annie Loi","Duncan Hoyland")
+team_data <- tibble(
+  name = c("Druvis Keiri", "Charlie Franklin-White", "Jami Burrell", 
+           "Sean Wang", "Annie Loi","Duncan Hoyland"),
   github_username = c("squareheadge34", "cfranklinwhite", "jamie-burrell", 
-                      "sw-005", "aaannniie","duncan-hoyland") 
-  colour = c("purple", "blue", "blue", 
-             "green", "blue","seagreen")
+                      "sw-005", "aaannniie","duncan-hoyland"), 
+  colour = c("purple", "blue", "blue",
+             "green", "blue","seagreen"),
   hobby = c("Basketball", "poker", "climbing", 
-            "Gaming", "Gaming","rugby")
+            "Gaming", "Gaming","rugby"),
   favourite_number = c(6, 2, 2, 8, 7, 2)
+)
 
-  
 team_data
 ```
 
