@@ -59,7 +59,7 @@ p1 + labs(x = "Github_username",
           title = "Favourite numbers Graph")
 ```
 
-Labs stands for labels and will put titles/lables onto your graph.
+Labs stands for labels and will put titles/labels onto your graph.
 
 ### Exercise 20
 
@@ -69,4 +69,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+It would be possible to express this data in a pie chart. 
