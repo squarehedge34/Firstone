@@ -54,12 +54,12 @@ The Graphic shows the different members of the group and their favorite number i
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "Github_username", 
+          y = "Favourit_Number",
+          title = "Favourite numbers Graph")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+Labs stands for labels and will put titles/lables onto your graph.
 
 ### Exercise 20
 
