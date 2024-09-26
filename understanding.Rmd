@@ -1,0 +1,10 @@
+---
+title: "Figuring out R"
+output: html_document
+date: "2024-09-26"
+---
+view(flights)
+
+?flights
+
+task1 <- filter(flights, arr_delay >= 120)
