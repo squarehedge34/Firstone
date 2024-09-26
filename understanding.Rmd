@@ -7,4 +7,4 @@ view(flights)
 
 ?flights
 
-task1 <- filter(flights, arr_delay >= 120)
+task1 <- filter(flights, arr_delay >= 120, dest == "HOU")
